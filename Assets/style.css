@@ -13,6 +13,10 @@ body {
   /* background-image: linear-gradient(to top, #A8806B , #FCF7F4); */
 }
 
+#nav.a:hover{
+  color:#B91343;
+}
+
 .headerpro-name {
   height: 10%;
   /* width: 100% */
@@ -53,11 +57,12 @@ body {
   background-color: #FCF7F4;
 }
 
-#pg1{
+#pg1, #pg2, #pg3{
   border: solid 2px black;
   background-color: #FCF7F4;
   /* background-image: linear-gradient(to right, #A8806B , #FCF7F4); */
 }
+
 
 #pg1-contents{
   border: solid 2px black;
