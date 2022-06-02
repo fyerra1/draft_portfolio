@@ -1,8 +1,14 @@
-HW 2 Portfolio/Landing Page
+Portfolio/Landing Page
 
-This a deployed portfolio of work samples
+This page is a web portfolio with personal general information that highlights past work.
+
+This page was created using:
+HTML
+CSS
+BOOTSTRAP FRAMEWORK
+DEVICON FRAMEWORK
 
 Screenshot of page:
-file:///Users/frankyerra/Downloads/screencapture-fyerra1-github-io-Portfolio-2022-04-19-23_27_47.png
+
 
 https://fyerra1.github.io/Portfolio/
