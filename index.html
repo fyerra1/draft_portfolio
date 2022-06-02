@@ -1,90 +1,110 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="./style.css">
-  <title>Fullstack Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="stylesheet" type="text/css" href="./Assets/style.css">
+    <title>Fullstack Portfolio</title>
 </head>
 <body>
-  <!-- Header -->
-  <header>
-    <nav>
-        <a href="#About">About</a>
-        <a href="#Work">Work</a>
-        <a href="#Contact">Contact</a>
-    </nav>
+  <header class="h-100 p-0 m-0" id="header-content">
+    <div class="column p-3 h-100 w-100">
+      <div class="d-flex flex-column h-50 w-100 align-items-center" id="about">
+        <h2 class="headerpro-name innerborder black-font">Franky Erra</h2>
+        <div class="headerpro-others innerborder">
+          <img src="https://pic.onlinewebfonts.com/svg/img_513928.png" alt="logo" class="fixed-profile">
+        </div>
+        <p class="pt-5 headerpro-others innerborder d-flex text-center black-font">Hi, my name is Franky Erra and I am a Fullstack Web Developer. Welcome to my web portfolio</p>
+      </div>
+      <div class="h-50 w-100 d-flex flex-column align-items-center white-font" id="nav">
+        <div>Home</div>
+        <div>Work</div>
+        <div>Contact</div>
+        <div>Web CV</div>
+      </div>
+    </div>
   </header>
-  <main>
-    <!-- Home -->
-    <section id="About" class="page1">
-      <section class="bio">
-        <img src="https://pic.onlinewebfonts.com/svg/img_513928.png" alt="logo" class="profile">
-        <h1>Franky Erra</h1>
-        <a href="#" class="btn">View CV</a>
-      </section>
-      <section class="text">
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam laborum eum facilis molestias tenetur iusto. Sapiente, rem ad at, animi ipsum odio id enim nobis vero, molestias qui exercitationem minima.</p>
-      </section>
-    </section>
-    <!-- Work -->
-    <section id="Work" class="page2">
-      <section class="featured-flex-container">
-        <section class="featured-flex-item">
-          <a href="https://www.google.com/">
-            <h2>Project 1</h2>
-              <img src="https://www.thebalancecareers.com/thmb/iz-aH3VGU_iXgmeNitwSjvyEnXo=/950x633/filters:fill(auto,1)/web-developer-job-description-salary-and-skills-2061841_final-01-1daf6d8219bd49a089189b4e8c6a7e4d-432214bf6dc64187b1866389f582b79d.jpg" alt="">
-            <h3>Web App</h3>
-            <p>Made using HTML CSS & JS</p>
-          </a>
+  <main class="h-100 p-0" id="main">
+    <div class="d-flex flex-row w-100 h-100 m-0 p-5 align-items-center justify-content-center border" id="pg1">
+      <div class="d-flex flex-column w-50 pr-5" id="home-about">
+        <h4 class="red-font">Fullstack Developer</h4>
+        <h1 class="black-font">Franky Erra</h1>
+        <p class="grey-font">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam, cumque. Deserunt ipsum suscipit sequi maiores totam non ex necessitatibus molestias quia voluptatum magni quae distinctio expedita, facere, optio ea adipisci!</p>
+        <div class="d-flex flex-row">
+          <button type="button" class="btn btn-outline-primary mr-2">Contact</button>
+          <button type="button" class="btn btn-outline-secondary ml-2">View CV</button>
+        </div>
+      </div>
+      <img src="https://pic.onlinewebfonts.com/svg/img_513928.png" class="main-profile">
+    </div>
+    <div class="d-flex flex-column w-100 h-100 m-0 p-5 border" id="pg1">
+      <div class="d-flex flex-column justify-content-start align-items-center h-25" id="skills">
+        <h2 class="red-font">Relevant Skills</h2>
+        <div class="icons">
+          <i class="devicon-html5-plain-wordmark"></i>
+          <i class="devicon-css3-plain-wordmark"></i>
+          <i class="devicon-javascript-plain"></i>
+          <i class="devicon-jquery-plain-wordmark"></i>
+          <i class="devicon-bootstrap-plain-wordmark"></i>
+          <i class="devicon-nodejs-plain-wordmark"></i>
+        </div>
+      </div>
+      <div class="h-75 d-flex flex-column">
+        <h2 class="h-25 w-100 m-0 pb-5 red-font align-items-end d-flex">Web Applications</h2>
+        <div class="d-flex flex-row h-75">
+          <div class="d-flex flex-column w-50 h-100" id="featured-work">
+            <h4 class="m-0 pb-2">Featured</h4>
+            <div class="card d-flex w-75 h-75">
+              <img src="https://blog.tubikstudio.com/wp-content/uploads/2019/03/luggage_delivery_service_website_tubik.png">
+              <p class="m-0 p-0 text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, iste?</p>
+            </div>
+          </div>
+          <div class="w-50 h-100 px-3 d-flex flex-column grey-font" id="other-work">
+            <div class="h-50 d-flex flex-row">
+              <div class="card w-50 h-100 d-flex justify-content-center">
+                <a href="https://reversedentistry.github.io/Random-Movie-Selector/">
+                  <img class="h-100 w-100" src="file:///Users/frankyerra/Desktop/Screen%20Shot%202022-05-31%20at%2011.01.11%20PM.png">
+                </a>
+              </div>
+              <div class="w-50 h-100 text-center">
+                <h5>Random Movie Generator</h5>
+                <p class="pt-3 px-3">This web application takes a list with 250 of the most popular movies per IMDB and randomly selects then suggests a movie to watch.</p>
+              </div>
+            </div>
+            <div class="h-50 d-flex flex-row">
+              <div class="card w-50 h-100 d-flex"></div>
+              <div class="w-50 h-100 text-center">
+                <h5>Other Project 2</h5>
+                <p class="pt-3 px-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, debitis.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="d-flex flex-column w-100 h-100 m-0 p-0 border" id="pg1">
+      <form id="Contact" class="h-100 w-100 d-flex flex-column align-items-center justify-content-center">
+        <section>
+          <h3 class="red-font">Looking forward to connect</h3>
         </section>
-      </section>
-      <section class="flex-container">
-        <section class="flex-items">
-          <a href="https://www.google.com/">
-          <h2> Project 2</h2>
-            <img src="https://developers.google.com/web/images/hero-2x.png" alt="">
-          <h3>Web App</h3>
-          <p>Made using HTML CSS & JS</p>
-          </a>
+        <section class="container">
+            <label>Name</label>
+            <input type="text" placeholder="Your name..">
+        
+            <label>Email</label>
+            <input type="text" placeholder="Your email..">
+        
+            <label>Subject</label>
+            <textarea placeholder="Write something.." style="height:200px"></textarea>
+        
+            <input type="submit" value="Submit">
         </section>
-        <section class="flex-items">
-          <a href="https://www.google.com/">
-          <h2> Project 3</h2>
-            <img src="https://developers.google.com/web/images/hero-2x.png" alt="">
-          <h3>Web App</h3>
-          <p>Made using HTML CSS & JS</p>
-          </a>
-        </section>
-        <section class="flex-items">
-          <a href="https://www.google.com/">
-          <h2> Project 4</h2>
-            <img src="https://developers.google.com/web/images/hero-2x.png" alt="">
-          <h3>Web App</h3>
-          <p>Made using HTML CSS & JS</p>
-          </a>
-        </section>
-      </section>
-    </section>
-  <!-- Contact -->
-    <form id="Contact" class="page3">
-      <section>
-        <h3>Looking forward to connect</h3>
-      </section>
-      <section class="container">
-          <label>Name</label>
-          <input type="text" placeholder="Your name..">
-      
-          <label>Email</label>
-          <input type="text" placeholder="Your email..">
-      
-          <label>Subject</label>
-          <textarea placeholder="Write something.." style="height:200px"></textarea>
-      
-          <input type="submit" value="Submit">
-      </section>
-    </form>
+      </form>
+    </div>
   </main>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/moment.min.js"></script> -->
 </body>
 </html>
