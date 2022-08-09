@@ -5,19 +5,65 @@ body {
   height: 100vh;
 }
 
+#headshot {
+  width: 20rem;
+}
+
 #projects {
   width: 20rem;
   height: 10rem;
 }
 
+.thumbnails {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .ribbons {
   position: absolute;
   bottom: .5rem;
-  text-align: center;
-  color: black;
-  background-color: #A8806B;
   opacity: 90%;
   border-radius: 0 .5rem .5rem 0;
   z-index: 1;
+  text-align: center;
+  font-size: auto;
+  color: black;
+  background-color: #A8806B;
 }
 
+@media screen and (min-width: 768px) {
+  
+#projects {
+  width: 40rem;
+  height: 20rem;
+}
+
+.ribbons {
+  height: 5rem;
+  width: 25rem;
+}
+}
+
+@media screen and (min-width: 992px) {
+  
+  #works {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1 0 100%;
+    max-width: 100%;
+  }
+  
+  /* #projects {
+    width: 40rem;
+    height: 20rem;
+  }
+  
+  .ribbons {
+    height: 5rem;
+    width: 25rem;
+  } */
+
+}
