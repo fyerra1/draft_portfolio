@@ -10,94 +10,104 @@
     <title>Fullstack Portfolio</title>
 </head>
 <body>
-  <header class="" id="header-content">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="#">Features</a>
-          <a class="nav-item nav-link" href="#">Pricing</a>
-          <a class="nav-item nav-link disabled" href="#">Disabled</a>
+  <header class="h-100 p-0 m-0" id="header-content">
+    <div class="column p-3 h-100 w-100">
+      <div class="d-flex flex-column h-50 w-100 align-items-center" id="about">
+        <h2 class="headerpro-name innerborder black-font">Franky Erra</h2>
+        <div class="headerpro-others innerborder">
+          <img src="https://pic.onlinewebfonts.com/svg/img_513928.png" alt="logo" class="fixed-profile">
+        </div>
+        <p class="pt-5 headerpro-others innerborder d-flex text-center black-font">Hi, my name is Franky Erra and I am a Fullstack Web Developer. Welcome to my web portfolio</p>
+      </div>
+      <div class="h-50 w-100 d-flex flex-column align-items-center white-font" id="nav">
+        <a href="#pg1" class="white-font">Home</a>
+        <a href="#pg2" class="white-font">Work</a>
+        <a href="#pg3" class="white-font">Contact</a>
+        <a>Web CV</a>
+      </div>
+    </div>
+  </header>
+  <main class="h-100 p-0" id="main">
+    <div class="d-flex flex-row w-100 h-100 m-0 p-5 align-items-center justify-content-center border" id="pg1">
+      <div class="d-flex flex-column w-50 pr-5" id="home-about">
+        <h4 class="red-font">Fullstack Developer</h4>
+        <h1 class="black-font">Franky Erra</h1>
+        <p class="grey-font">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam, cumque. Deserunt ipsum suscipit sequi maiores totam non ex necessitatibus molestias quia voluptatum magni quae distinctio expedita, facere, optio ea adipisci!</p>
+        <div class="d-flex flex-row">
+          <button type="button" class="btn btn-outline-primary mr-2">Contact</button>
+          <button type="button" class="btn btn-outline-secondary ml-2">View CV</button>
         </div>
       </div>
-    </nav>
-  </header>
-  <main class='' id=''>
-    <h4 class='m-4'>About Me</h4>
-    <section class='m-4'>
-      <a><img src='./Assets/images/prodefault.png' alt='headshot' class='mb-4' id='headshot'/></a>
-      <p>
-        orem ipsum dolor sit amet consectetur adipisicing elit. Sed dignissimos dolore commodi illum, praesentium atque quae animi veniam repellendus ipsam odio ad ullam non a.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed dignissimos dolore commodi illum, praesentium atque quae animi veniam repellendus ipsam odio ad ullam non a.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed dignissimos dolore commodi illum, praesentium atque quae animi veniam repellendus ipsam odio ad ullam non a.
-      </p>
-    </section>
-    <h4 class='m-4'>Projects</h4>
-    <section class="" id="works">
-      <article class="container-fluid">
-        <figure class='card border mx-2' id="projects">
-          <a href="" target="blank">
-            <img src='./Assets/images/recipes.png' alt='app1' class='img-fluid thumbnails'/>
-            <figcaption class="ribbons py-1 px-4">
-              <h4>Recipe Saver</h4>
-              <h5>Lorem, ipsum dolor</h5>
-            </figcaption>
-          </a>
-        </figure>
-      </article>
-      <article class="container-fluid">
-        <figure class='card border mx-2' id="projects">
-          <a href="" target="blank">
-            <img src='./Assets/images/project1.png' alt='app2' class='img-fluid thumbnails'/>
-            <figcaption class="ribbons py-1 px-4">
-              <h4>Random Movies</h4>
-              <h5>Lorem, ipsum dolor</h5>
-            </figcaption>
-          </a>
-        </figure>
-      </article>
-      <article class="container-fluid">
-        <figure class='card border mx-2' id="projects">
-          <a href="" target="blank">
-            <img src='./Assets/images/weather.png' alt='app3' class='img-fluid thumbnails'/>
-            <figcaption class="ribbons py-1 px-4">
-              <h4>Weather App</h4>
-              <h5>Lorem, ipsum dolor</h5>
-            </figcaption>
-          </a>
-        </figure>
-      </article>
-      <article class="container-fluid">
-        <figure class='card border mx-2' id="projects">
-          <a href="" target="blank">
-            <img src='./Assets/images/notetaker.png' alt='app4' class='img-fluid thumbnails'/>
-            <figcaption class="ribbons py-1 px-4">
-              <h4>Note Taker</h4>
-              <h5>Lorem, ipsum dolor</h5>
-            </figcaption>
-          </a>
-        </figure>
-      </article>
-    </section>
-    <h4 class='m-4'>Contact Me</h4>
-    <section class='m-4'>
-      <figure class="card p-4">
-        <figcaption>
-          <p><a>Email: frankyerra1@gmail.com</a></p>
-        </figcaption>
-        <figcaption>
-          <p><a>Github: fyerra1</a></p>
-        </figcaption>
-      </figure>
-    </section>
+      <img src="https://pic.onlinewebfonts.com/svg/img_513928.png" class="main-profile">
+    </div>
+    <div class="d-flex flex-column w-100 h-100 m-0 p-5 border" id="pg2">
+      <div class="d-flex flex-column justify-content-start align-items-center h-25" id="skills">
+        <h2 class="red-font">Relevant Skills</h2>
+        <div class="icons">
+          <i class="devicon-html5-plain-wordmark"></i>
+          <i class="devicon-css3-plain-wordmark"></i>
+          <i class="devicon-javascript-plain"></i>
+          <i class="devicon-jquery-plain-wordmark"></i>
+          <i class="devicon-bootstrap-plain-wordmark"></i>
+          <i class="devicon-nodejs-plain-wordmark"></i>
+        </div>
+      </div>
+      <div class="h-75 d-flex flex-column">
+        <h2 class="h-25 w-100 m-0 pb-5 red-font align-items-end d-flex">Web Applications</h2>
+        <div class="d-flex flex-row h-75">
+          <div class="d-flex flex-column w-50 h-100" id="featured-work">
+            <h4 class="m-0 pb-2">Featured</h4>
+            <div class="card d-flex w-75 h-75">
+              <!-- <img src="https://blog.tubikstudio.com/wp-content/uploads/2019/03/luggage_delivery_service_website_tubik.png"> -->
+              <p class="m-0 p-0 text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, iste?</p>
+            </div>
+          </div>
+          <div class="w-50 h-100 px-3 d-flex flex-column grey-font" id="other-work">
+            <div class="h-50 d-flex flex-row">
+              <div class="card w-50 h-100 d-flex justify-content-center">
+                <a href="https://reversedentistry.github.io/Random-Movie-Selector/">
+                  <img class="h-100 w-100" src="./Assets/movie.png">
+                </a>
+              </div>
+              <div class="w-50 h-100 text-center">
+                <h5>Random Movie Generator</h5>
+                <p class="pt-3 px-3">This web application takes a list with 250 of the most popular movies per IMDB and randomly selects then suggests a movie to watch.</p>
+              </div>
+            </div>
+            <div class="h-50 d-flex flex-row">
+              <div class="card w-50 h-100 d-flex">
+                <a href="https://group-2-recipe-saver.herokuapp.com/login">
+                  <img class="h-100 w-100" src="./Assets/recipe.png">
+                </a>
+              </div>
+              <div class="w-50 h-100 text-center">
+                <h5>Recipe Saver</h5>
+                <p class="pt-3 px-3">An easy application to store your favorite recipes</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="d-flex flex-column w-100 h-100 m-0 p-0 border" id="pg3">
+      <form id="Contact" class="h-100 w-100 d-flex flex-column align-items-center justify-content-center">
+        <section>
+          <h3 class="red-font">Looking forward to connect</h3>
+        </section>
+        <section class="container">
+            <label>Name</label>
+            <input type="text" placeholder="Your name..">
+        
+            <label>Email</label>
+            <input type="text" placeholder="Your email..">
+        
+            <label>Subject</label>
+            <textarea placeholder="Write something.." style="height:200px"></textarea>
+        
+            <input type="submit" value="Submit">
+        </section>
+      </form>
+    </div>
   </main>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/moment.min.js"></script> -->
 </body>
