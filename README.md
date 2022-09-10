@@ -14,4 +14,4 @@ Screenshots of page:
 ![Screen Shot 2022-06-01 at 5 42 48 PM](https://user-images.githubusercontent.com/101071513/171524423-e38548f9-3113-4f1e-9366-7d14fe71bd3d.png)
 
 
-https://fyerra1.github.io/Portfolio/
+https://fyerra1.github.io/draft_portfolio/
